@@ -1,0 +1,97 @@
+body {
+  background-color: rgba(255, 255, 255, 0.78);
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #f1e8ee;
+}
+
+.headerCont {
+  margin-top: 64px;
+  border-bottom: 2px solid #f1e8ee;
+}
+
+.headerImg {
+  max-height: 100vh;
+  background-color: #f1e8ee;
+}
+
+.techImg {
+  width: 60px;
+}
+.videoCont {
+  width: 100%;
+  max-height: 100vh;
+  display: block;
+  overflow: hidden;
+}
+video {
+  max-height: 100vh;
+  width: 100%;
+}
+.projects-prop {
+  background-color: #f1e8ee;
+}
+
+.projects-bg {
+  background-color: #f8d7f5;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.projectsImg:hover {
+  border: 3px solid #f8d7f5;
+}
+
+.aboutUs {
+  background-color: #f0b7ea;
+}
+
+.orderButtonTop {
+  background-color: hsl(319, 92%, 86%);
+}
+.orderButtonBottom {
+  background-color: hsl(319, 92%, 88%);
+}
+
+.orderButtonBottom,
+.orderButtonTop {
+  &:hover {
+    background-color: hsl(319, 92%, 92%);
+  }
+}
+
+p.h6 {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+hr {
+  background-color: #f1c5ed;
+}
+
+.footerCont {
+  border-top: 2px solid #f1e8ee;
+  background-color: #f1e8ee;
+}
+
+.footerIcon {
+  color: black;
+}
+
+.footerIcon:hover {
+  color: #c56fa8;
+}
+@media only screen and (max-width: 1024px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
