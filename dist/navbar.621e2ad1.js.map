@@ -1,0 +1,1 @@
+{"version":3,"sources":["JS/navbar.js"],"names":["$","on","collapse"],"mappings":";AAAAA,EAAE,oBAAoBC,GAAG,QAAS,WAChCD,EAAE,oBAAoBE,SAAS","file":"navbar.621e2ad1.js","sourceRoot":"..","sourcesContent":["$(\".navbar-nav>li>a\").on(\"click\", function () {\r\n  $(\".navbar-collapse\").collapse(\"hide\");\r\n});\r\n"]}
