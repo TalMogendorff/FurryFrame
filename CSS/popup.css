@@ -7,6 +7,7 @@
   background-color: rgba(255, 255, 255, 0.6);
   display: none;
   z-index: 9999;
+  transform: translateZ(2px);
 }
 
 .popupCont {
